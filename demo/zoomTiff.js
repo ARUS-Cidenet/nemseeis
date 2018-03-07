@@ -65,7 +65,7 @@ var canvas;
 
 function loadPDFAntiguo(){
 	xhr = new XMLHttpRequest();
-		xhr.open('GET', "/form3.tif");
+		xhr.open('GET', "form3.tif");
 		xhr.responseType = 'arraybuffer';
 		xhr.onload = function (e) {
 			var tiff = new Tiff({buffer: xhr.response});
