@@ -65,7 +65,7 @@ var canvas;
 
 function loadPDFAntiguo(){
 	xhr = new XMLHttpRequest();
-		xhr.open('GET', "http://seikichi.github.io/tiff.js/images/palette-1c-1b.tiff");
+		xhr.open('GET', "https://github.com/ARUS-Cidenet/nemseeis/blob/master/demo/form3.tif?raw=true");
 		xhr.responseType = 'arraybuffer';
 		xhr.onload = function (e) {
 			var tiff = new Tiff({buffer: xhr.response});
